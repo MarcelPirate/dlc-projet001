@@ -7,8 +7,6 @@
 #include <Controls.hpp>
 #include <StdCtrls.hpp>
 #include <Forms.hpp>
-
-//test pour github
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
