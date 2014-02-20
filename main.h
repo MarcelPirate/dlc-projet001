@@ -1,21 +1,18 @@
 //---------------------------------------------------------------------------
 
-#ifndef mainH
-#define mainH
+#ifndef MainH
+#define MainH
 //---------------------------------------------------------------------------
 #include <Classes.hpp>
 #include <Controls.hpp>
 #include <StdCtrls.hpp>
 #include <Forms.hpp>
-
-//commentaire test pour github
-
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
-__published:	// IDE-managed Components
-private:	// User declarations
-public:		// User declarations
+__published:	// Composants gérés par l'EDI
+private:	// Déclarations de l'utilisateur
+public:		// Déclarations de l'utilisateur
         __fastcall TForm1(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
