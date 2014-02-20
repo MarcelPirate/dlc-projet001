@@ -7,11 +7,19 @@
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
-TForm2 *Form2;
+TFicheEditeur *FicheEditeur;
 //---------------------------------------------------------------------------
-__fastcall TForm2::TForm2(TComponent* Owner)
+__fastcall TFicheEditeur::TFicheEditeur(TComponent* Owner)
         : TForm(Owner)
 {
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TFicheEditeur::DateClick(TObject *Sender)
+{
+Date->Caption = DateToStr(Date());
+
 }
 //---------------------------------------------------------------------------
 
