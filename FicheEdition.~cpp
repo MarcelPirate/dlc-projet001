@@ -3,18 +3,16 @@
 #include <vcl.h>
 #pragma hdrstop
 
-#include "Main.h"
+#include "FicheEdition.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
-TFicheEditeur *FicheEditeur;
+TForm2 *Form2;
 //---------------------------------------------------------------------------
-__fastcall TFicheEditeur::TFicheEditeur(TComponent* Owner)
+__fastcall TForm2::TForm2(TComponent* Owner)
         : TForm(Owner)
 {
 }
 //---------------------------------------------------------------------------
-
-
 
 

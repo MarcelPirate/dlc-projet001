@@ -15,21 +15,21 @@ object FicheEditeur: TFicheEditeur
   TextHeight = 13
   object Label1: TLabel
     Left = 72
-    Top = 64
+    Top = 56
     Width = 20
     Height = 13
     Caption = 'Lieu'
   end
   object Label2: TLabel
     Left = 192
-    Top = 64
+    Top = 56
     Width = 20
     Height = 13
     Caption = 'Jour'
   end
   object Label3: TLabel
     Left = 416
-    Top = 64
+    Top = 56
     Width = 29
     Height = 13
     Caption = 'Heure'
@@ -50,14 +50,14 @@ object FicheEditeur: TFicheEditeur
   end
   object Label6: TLabel
     Left = 256
-    Top = 64
+    Top = 56
     Width = 22
     Height = 13
     Caption = 'Mois'
   end
   object Label7: TLabel
     Left = 320
-    Top = 64
+    Top = 56
     Width = 25
     Height = 13
     Caption = 'Ann'#233
@@ -82,7 +82,7 @@ object FicheEditeur: TFicheEditeur
   end
   object Memo3: TMemo
     Left = 320
-    Top = 88
+    Top = 80
     Width = 57
     Height = 25
     Lines.Strings = (
@@ -91,7 +91,7 @@ object FicheEditeur: TFicheEditeur
   end
   object Memo4: TMemo
     Left = 416
-    Top = 88
+    Top = 80
     Width = 89
     Height = 25
     Lines.Strings = (
@@ -100,7 +100,7 @@ object FicheEditeur: TFicheEditeur
   end
   object PopupMenu1: TPopupMenu
     Left = 72
-    Top = 80
+    Top = 72
     object Canada1: TMenuItem
       Caption = 'Canada'
     end
@@ -116,11 +116,11 @@ object FicheEditeur: TFicheEditeur
   end
   object PopupMenu2: TPopupMenu
     Left = 192
-    Top = 80
+    Top = 72
   end
   object PopupMenu4: TPopupMenu
     Left = 256
-    Top = 80
+    Top = 72
     object Janvier1: TMenuItem
       Caption = 'Janvier'
     end
